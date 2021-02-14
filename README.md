@@ -71,11 +71,34 @@ Array 0 (first measurement taken)
 Instance 1 (repeat assessment measurement)
 Array 0 (first measurement taken)
 
+</br>
+
+**HES dataset glossary**
+
+>"hesin" = master table containing inpatient episodes of UK (including ICU/op/maternity,etc..)  
+
+>"hesin_diag" = diagnosis codes (ICD-9 or ICD-10) relating to inpatient episodes
+
+>"spell" = single inpatient admission, a duration from admission to dischage  
+ * 1 spell can be split into, or have several 'episodes'  
+ * episodes here refer to being under one consultant in that hospital   
+ * if patients' care is transferred to another consultant, then a new 'episode' is generated   
+
+"spell_index" = attempt at grouping several episodes under a spell 
+
+
+</br>
+
+
+
 
 ------------------------------
 </br>
 
 ## Further Useful Links
+
+* [BiobankRead - Python Github ? outdated 2019](https://github.com/saphir746/BiobankRead-Bash)
+* [BiobankRead - biorxiv.org](https://www.biorxiv.org/content/10.1101/569715v1.full.pdf)
 
 * [How data was collected and some glossary (ukb26390.csv)](https://biobank.ndph.ox.ac.uk/~bbdatan/Repeat_assessment_doc_v1.0.pdf)
 
