@@ -105,6 +105,8 @@ Array 0 (first measurement taken)
 
 * [Hospital Episode Statistics (HES) or more on hesin_diag + hesin.txt](https://biobank.ndph.ox.ac.uk/showcase/showcase/docs/HospitalEpisodeStatistics.pdf)
 
+* [HES Data Dictionary](https://biobank.ndph.ox.ac.uk/showcase/showcase/docs/HESDataDic.xlsx)
+
 * [UK Biobank Simplified Web browser](https://biobank.ndph.ox.ac.uk/showcase/browse.cgi)
 
 * [UK Biobank Search Tool (find specific Field IDs or Data-coding)](https://biobank.ndph.ox.ac.uk/showcase/search.cgi)
