@@ -1,7 +1,17 @@
 # TDS Group 9 Git repo 
-~ Hello and welcome to the most awesome group! ~  
-Have put up some starter info after lurking around the UKB website.  
-We can use this page as a quick wiki for our project.
+~ Hello and welcome to the TDS group 9 UKBB repo! ~  
+This page as serves both as a wiki for our project and repository of code.
+
+## About
+Our project is focused on malignant melanoma prediction using machine learning techniques. We performed a time-windowing of comorbidities based on a triplet-paired case control matching. Full details of this and the results are as described in our report.
+
+## Scripts
+These are organized into 4 folders for your reading:
+1. Data Wrangling
+2. Case Control Selection and Windowing
+3. Descriptive Analysis and Vizualization
+4. Modelling 
+
 
 </br>
 
@@ -27,7 +37,7 @@ We can use this page as a quick wiki for our project.
 </br>  
   
 
-## Group folder format 
+## Group folder format on HPC
 
 ```
 Group9/General/
@@ -46,7 +56,7 @@ Group9/General/
 |   ├── ...                   copies of original scripts 
 |   └── nina.yml              example anaconda environment yaml file 
 |
-└── Personal folders/         where your darkest secrets lives.. and maybe your git clone
+└── Personal folders/         where personal scripts are
 
 ```
 -------------------------------
